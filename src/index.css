@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Courier New';
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Courier+New:wght@400;600;700&display=swap');
+}
+
+@keyframes moving-gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.courier-new {
+  font-family: "Courier New", monospace;
+}
+
+.gradient-text-blue {
+  background: linear-gradient(to right, #736EFE, #5EFCE8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-text-green {
+  background: linear-gradient(to right, #736EFE, #5EFCE8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-text-orange {
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
